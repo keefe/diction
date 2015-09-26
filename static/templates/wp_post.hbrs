@@ -1,0 +1,23 @@
+  <article class="post-{{id}} post type-post status-publish format-standard has-post-thumbnail hentry category-wordpress" id ="post-{{id}}">
+  	<div class="post-thumbnail">
+		<img width="25" height="25" src="{{user.imageUrl}}" class="attachment-post-thumbnail wp-post-image" alt="user image" />	
+	</div>
+	<header class="entry-header">
+		<h1 class="entry-title">{{title}}</h1>	
+	    <span class="postControls">    
+	 	    <input type="button" class="button-reply id-{{id}}" value="Reply"/>
+	   		<input type="button" class="button-view id-{{id}}" value="View"/>
+		</span>
+	</header> 
+	
+	<div class="entry-content">
+		{{body}}
+	</div>
+	
+	<div class="author-info">
+		<h2 class="author-heading">Published by</h2>
+		<div class="author-description">
+			<h3 class="author-title">{{user.displayName}}</h3>	
+		</div>
+	</div>	
+ </div>

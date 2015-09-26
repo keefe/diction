@@ -1,0 +1,37 @@
+.postLarge{
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+.postLarge .postHeader{
+	display: block;
+}
+
+.postLarge .postControls{
+	font-size: 9px;
+	display: block;
+	margin-bottom: 10px;
+}
+
+.postLarge .postUserInfo{
+	display: block;
+}
+.postLarge .postUserInfo .postUserName{
+	font-size: 10px;
+}
+.postLarge .postUserInfo .postUserImageActual{
+	width: 25px;
+	height: 25px;
+}
+.postLarge .postTitle{
+	font-size: 20px;
+}
+.postLarge .postBody {
+	font-size: 12px;
+}
+
+			.newThread{
+				border: 1px solid red;
+				position: absolute;
+				right: 20px;
+				top: 60px;
+			}

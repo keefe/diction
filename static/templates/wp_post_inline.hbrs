@@ -1,0 +1,21 @@
+  <div class="postLarge" id ="{{id}}">
+  
+    <span class="postHeader">
+	    <span class="postTitle">{{title}}</span>
+	    <span class="postTags">{{tagString}}</span>
+	    <span class="postURL">{{url}}</span>
+    </span>
+    
+    <span class="postUserInfo">
+	    <span class="postUserImage"><img class="postUserImageActual" src = "{{user.imageUrl}}"/></span>
+	    <span class="postUserName">{{user.displayName}}</span>
+	</span>
+    <span class="postControls">    
+ 	    <input type="button" class="button-reply id-{{id}}" value="Reply"/>
+   		<input type="button" class="button-view id-{{id}}" value="View"/>
+	</span>
+	
+    <div class="postBody">
+      {{body}}
+    </div>
+ </div>

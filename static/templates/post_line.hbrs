@@ -1,0 +1,16 @@
+  <div class="inline_post" id ="{{_id}}">
+  	<span class="title">
+  		<a href="{{url}}">
+  			{{title}}
+  		</a>
+  	</span>
+	<span class = "about">
+		by {{user.displayName}}
+	</span>			  	
+    <img src = "{{user.imageUrl}}"/>
+    <div class="body">
+      {{body}}
+    </div>
+    <input type="button" class="button-reply id-{{_id}}" value="Reply"/>
+    <input type="button" class="button-view id-{{_id}}" value="View"/>
+  </div>
